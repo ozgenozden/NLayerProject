@@ -16,6 +16,8 @@ public class SuccessDataResult<T>:DataResult<T>
 
     public SuccessDataResult() : base(default, true)
     {
+
+
     }
 }
 
