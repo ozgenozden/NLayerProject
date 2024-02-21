@@ -1,0 +1,73 @@
+﻿<Properties StartupConfiguration="{C99A355D-8E43-40C4-82F1-5F1661747F59}|Default">
+  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataAccess/Concrete/InMemory/InMemoryProductDal.cs">
+    <Files>
+      <File FileName="ConsoleUI/Program.cs" Line="20" Column="24" />
+      <File FileName="Entities/Concrete/Product.cs" Line="1" Column="1" />
+      <File FileName="Entities/Concrete/Category.cs" Line="1" Column="1" />
+      <File FileName="Entities/Abstract/IEntity.cs" Line="1" Column="1" />
+      <File FileName="DataAccess/Abstract/IProductDal.cs" Line="11" Column="45" />
+      <File FileName="DataAccess/Concrete/InMemory/InMemoryProductDal.cs" Line="29" Column="1" />
+      <File FileName="Business/Abstract/IProductService.cs" Line="12" Column="26" />
+      <File FileName="Business/Concrete/ProductManager.cs" Line="34" Column="47" />
+      <File FileName="DataAccess/Abstract/ICategoryDal.cs" Line="1" Column="1" />
+      <File FileName="DataAccess/Abstract/IEntityRepository.cs" Line="10" Column="13" />
+      <File FileName="Entities/Concrete/Custumer.cs" Line="1" Column="1" />
+      <File FileName="DataAccess/Abstract/ICustumerDal.cs" Line="1" Column="1" />
+      <File FileName="DataAccess/Concrete/EntityFramework/EfCategoryDal.cs" Line="10" Column="2" />
+      <File FileName="DataAccess/Concrete/EntityFramework/NorthwindContext.cs" Line="19" Column="36" />
+      <File FileName="DataAccess/Concrete/EntityFramework/EfProductDal.cs" Line="16" Column="71" />
+      <File FileName="Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" Line="9" Column="35" />
+      <File FileName="DataAccess/Concrete/EntityFramework/EfCustumerDal.cs" Line="8" Column="90" />
+      <File FileName="Entities/Concrete/Order.cs" Line="5" Column="3" />
+      <File FileName="DataAccess/Abstract/IOrderDal.cs" Line="9" Column="2" />
+      <File FileName="DataAccess/Concrete/EntityFramework/EfOrderDal.cs" Line="11" Column="2" />
+      <File FileName="Business/Abstract/ICategoryService.cs" Line="9" Column="13" />
+      <File FileName="Business/Concrete/CategoryManager.cs" Line="23" Column="38" />
+      <File FileName="Entities/DTOs/ProductDetailDto.cs" Line="11" Column="42" />
+      <File FileName="Core/IEntities/Dto.cs" Line="5" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NLayerProject" expanded="True">
+            <Node name="Business" expanded="True">
+              <Node name="Abstract" expanded="True" />
+              <Node name="Concrete" expanded="True" />
+            </Node>
+            <Node name="ConsoleUI" expanded="True" />
+            <Node name="Core" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
+              <Node name="DataAccess" expanded="True">
+                <Node name="EntityFramework" expanded="True" />
+              </Node>
+              <Node name="Entities" expanded="True" />
+            </Node>
+            <Node name="DataAccess" expanded="True">
+              <Node name="Abstract" expanded="True" />
+              <Node name="Concrete" expanded="True">
+                <Node name="EntityFramework" expanded="True" />
+                <Node name="InMemory" expanded="True">
+                  <Node name="InMemoryProductDal.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Entities" expanded="True">
+              <Node name="Abstract" expanded="True" />
+              <Node name="Concrete" expanded="True" />
+              <Node name="DTOs" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
