@@ -2,6 +2,7 @@
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
+using Core.Utilities.Business;
 //using Business.ValidationRules.FluentValidation;
 //using Core.Aspects.Autofac.Validation;
 //using Core.Business;
@@ -33,14 +34,14 @@ public class ProductManager : IProductService
    
         //ValidationTool.Validate(new ProductValidator(), product);
 
-        //IResult result = BusinessRules.Run(CheckIfProductCountOfCategoryCorrect(product.CategoryId ),
-        //     CheckIfProductNameExists(product.ProductName));
+        IResult result = BusinessRules.Run(CheckIfProductCountOfCategoryCorrect(product.CategoryId ),
+           CheckIfProductNameExists(product.ProductName), CheckIfCategoryCount(_categoryService));
 
-        //var result = _productDal.Add(product);
-        //if (result != null)
-        //{
-        //    return result;
-        //}
+
+        if (result != null)
+        {
+            return result;
+        }
 
         _productDal.Add(product);
         return new SuccessResult(Messages.ProductAdded);
@@ -100,6 +101,16 @@ public class ProductManager : IProductService
         if (result )
         {
             return new ErrorResult(Messages.ProductNameAlreadyExists);
+        }
+        return new SuccessResult();
+    }
+
+    private IResult CheckIfCategoryCount(ICategoryService categoryService)
+    {
+        var result = _categoryService.GetAll().Data.Count();
+        if (result>=15)
+        {
+            return new ErrorResult(Messages.ProductOfCategoryError);
         }
         return new SuccessResult();
     }

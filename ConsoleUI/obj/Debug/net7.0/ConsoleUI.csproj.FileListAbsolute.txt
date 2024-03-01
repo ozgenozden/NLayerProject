@@ -76,3 +76,6 @@
 /Users/ozgen/Projects/NLayerProject/ConsoleUI/bin/Debug/net7.0/System.Diagnostics.EventLog.dll
 /Users/ozgen/Projects/NLayerProject/ConsoleUI/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll
 /Users/ozgen/Projects/NLayerProject/ConsoleUI/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll
+/Users/ozgen/Projects/NLayerProject/ConsoleUI/bin/Debug/net7.0/FluentValidation.dll
+/Users/ozgen/Projects/NLayerProject/ConsoleUI/bin/Debug/net7.0/Ninject.dll
+/Users/ozgen/Projects/NLayerProject/ConsoleUI/bin/Debug/net7.0/Ninject.Extensions.Factory.dll

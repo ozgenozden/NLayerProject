@@ -23,6 +23,7 @@
     <None Remove="Aspect\" />
     <None Remove="Aspect\Autofac\" />
     <None Remove="Aspect\Autofac\Validation\" />
+    <None Remove="Utilities\Business\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataAccess\" />
@@ -41,6 +42,7 @@
     <Folder Include="Aspect\" />
     <Folder Include="Aspect\Autofac\" />
     <Folder Include="Aspect\Autofac\Validation\" />
+    <Folder Include="Utilities\Business\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="11.8.1" />

@@ -1,5 +1,6 @@
 ﻿using System;
 using Business.Abstract;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 
@@ -13,14 +14,14 @@ public class CategoryManager:ICategoryService
         _categoryDal = categoryDal;
 	}
 
-    public Category Get(int categoryId)
+    public IDataResult<Category> Get(int categoryId)
     {
-        return _categoryDal.Get(c=>c.CategoryId==categoryId);
+        return new DataResult<Category>(_categoryDal.Get(c=>c.CategoryId==categoryId),true,"İstenilen ürün getirildi.");
     }
 
-    public List<Category> GetAll()
+    public IDataResult<List<Category>> GetAll()
     {
-        return _categoryDal.GetAll();
+        return new DataResult<List<Category>>( _categoryDal.GetAll(),true,"Ürünler getirildi.");
     }
 }
 

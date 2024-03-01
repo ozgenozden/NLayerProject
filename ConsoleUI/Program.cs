@@ -46,7 +46,7 @@ static void ProductDetailManager()
 static void CategoryManager()
 {
     CategoryManager categoryManager= new CategoryManager(new EfCategoryDal());
-    foreach (var item in categoryManager.GetAll())
+    foreach (var item in categoryManager.GetAll().Data)
     {
         Console.WriteLine("Category name : " + item.CategoryName + " Category Id : " + item.CategoryId);
     }
