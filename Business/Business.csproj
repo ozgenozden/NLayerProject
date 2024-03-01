@@ -11,12 +11,14 @@
     <None Remove="Concrete\" />
     <None Remove="Constants\" />
     <None Remove="DependecyResolves\" />
+    <None Remove="CCS\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Abstract\" />
     <Folder Include="Concrete\" />
     <Folder Include="Constants\" />
     <Folder Include="DependecyResolves\" />
+    <Folder Include="CCS\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entities\Entities.csproj" />
