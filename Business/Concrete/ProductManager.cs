@@ -1,8 +1,7 @@
-﻿
-using System;
-using System.ComponentModel.DataAnnotations;
-using Business.Abstract;
+﻿using Business.Abstract;
 using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
 //using Business.ValidationRules.FluentValidation;
 //using Core.Aspects.Autofac.Validation;
 //using Core.Business;
@@ -12,6 +11,7 @@ using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
 using Entities.Concrete;
 using Entities.DTOs;
+using FluentValidation;
 
 namespace Business.Concrete;
 
@@ -27,9 +27,10 @@ public class ProductManager : IProductService
     }
 
 
-    //[ValidationAspect(typeof(ProductValidator))]
+    [ValidationAspect(typeof(ProductValidator))]
     public IResult Add(Product product)
     {
+   
         //ValidationTool.Validate(new ProductValidator(), product);
 
         //IResult result = BusinessRules.Run(CheckIfProductCountOfCategoryCorrect(product.CategoryId ),

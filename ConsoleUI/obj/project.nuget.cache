@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Pwbe3rAMQ5NyYT8WL3ADp7ehB+AEaEFG//SYzOCWqIsj8hA0ALJkoI35aAytYyslGGFJ8D5CenER/lPE8M4Kqw==",
+  "dgSpecHash": "5sz3NNPOTt6eyOPJx4Y07aMlQ3uiJLRoBOGyAHMC9lVntKJDjJSPBAlX1aHRCJy8RjTHQkg91TuxBhSohtP4zQ==",
   "success": true,
   "projectFilePath": "/Users/ozgen/Projects/NLayerProject/ConsoleUI/ConsoleUI.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "/Users/ozgen/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/ozgen/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
     "/Users/ozgen/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
+    "/Users/ozgen/.nuget/packages/fluentvalidation/11.8.1/fluentvalidation.11.8.1.nupkg.sha512",
     "/Users/ozgen/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/ozgen/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/ozgen/.nuget/packages/microsoft.data.sqlclient/5.0.1/microsoft.data.sqlclient.5.0.1.nupkg.sha512",

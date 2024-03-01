@@ -84,3 +84,4 @@
 /Users/ozgen/Projects/NLayerProject/WebAPI/bin/Debug/net7.0/DataAccess.pdb
 /Users/ozgen/Projects/NLayerProject/WebAPI/bin/Debug/net7.0/Ninject.dll
 /Users/ozgen/Projects/NLayerProject/WebAPI/bin/Debug/net7.0/Ninject.Extensions.Factory.dll
+/Users/ozgen/Projects/NLayerProject/WebAPI/bin/Debug/net7.0/FluentValidation.dll

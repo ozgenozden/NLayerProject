@@ -12,6 +12,8 @@
     <None Remove="Constants\" />
     <None Remove="DependecyResolves\" />
     <None Remove="CCS\" />
+    <None Remove="ValidationRules\" />
+    <None Remove="ValidationRules\FluentValidation\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Abstract\" />
@@ -19,6 +21,8 @@
     <Folder Include="Constants\" />
     <Folder Include="DependecyResolves\" />
     <Folder Include="CCS\" />
+    <Folder Include="ValidationRules\" />
+    <Folder Include="ValidationRules\FluentValidation\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entities\Entities.csproj" />
@@ -30,5 +34,6 @@
     <PackageReference Include="Autofac.Extras.DynamicProxy" Version="7.1.0" />
     <PackageReference Include="Ninject" Version="3.3.6" />
     <PackageReference Include="Ninject.Extensions.Factory" Version="3.3.3" />
+    <PackageReference Include="FluentValidation" Version="11.8.1" />
   </ItemGroup>
 </Project>
