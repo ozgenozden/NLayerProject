@@ -69,3 +69,10 @@
 /Users/ozgen/Projects/NLayerProject/ConsoleUI/obj/Debug/net7.0/ConsoleUI.pdb
 /Users/ozgen/Projects/NLayerProject/ConsoleUI/obj/Debug/net7.0/ConsoleUI.genruntimeconfig.cache
 /Users/ozgen/Projects/NLayerProject/ConsoleUI/obj/Debug/net7.0/ref/ConsoleUI.dll
+/Users/ozgen/Projects/NLayerProject/ConsoleUI/bin/Debug/net7.0/Autofac.dll
+/Users/ozgen/Projects/NLayerProject/ConsoleUI/bin/Debug/net7.0/Autofac.Extensions.DependencyInjection.dll
+/Users/ozgen/Projects/NLayerProject/ConsoleUI/bin/Debug/net7.0/Autofac.Extras.DynamicProxy.dll
+/Users/ozgen/Projects/NLayerProject/ConsoleUI/bin/Debug/net7.0/Castle.Core.dll
+/Users/ozgen/Projects/NLayerProject/ConsoleUI/bin/Debug/net7.0/System.Diagnostics.EventLog.dll
+/Users/ozgen/Projects/NLayerProject/ConsoleUI/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll
+/Users/ozgen/Projects/NLayerProject/ConsoleUI/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll

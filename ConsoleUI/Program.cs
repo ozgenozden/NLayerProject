@@ -23,7 +23,7 @@ ProductDetailManager();
 
 static void ProductManager()
 {
-    ProductManager productManager = new ProductManager(new EfProductDal());
+    ProductManager productManager = new ProductManager(new EfProductDal(), new CategoryManager(new EfCategoryDal()));
     foreach (var item in productManager.GetByUnitPrice(7, 6).Data)
     {
         Console.WriteLine("Product name : " + item.ProductName + " product Price : " + item.UnitPrice);
@@ -33,7 +33,7 @@ static void ProductManager()
 
 static void ProductDetailManager()
 {
-    ProductManager productManager = new ProductManager(new EfProductDal());
+    ProductManager productManager = new ProductManager(new EfProductDal(),new CategoryManager(new EfCategoryDal()));
     foreach (var item in productManager.GetProductDetail().Data)
     {
         Console.WriteLine("Product name : " + item.ProductName + "------ Category Name : " + item.CategoryName);

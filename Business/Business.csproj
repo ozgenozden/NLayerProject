@@ -10,14 +10,23 @@
     <None Remove="Abstract\" />
     <None Remove="Concrete\" />
     <None Remove="Constants\" />
+    <None Remove="DependecyResolves\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Abstract\" />
     <Folder Include="Concrete\" />
     <Folder Include="Constants\" />
+    <Folder Include="DependecyResolves\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entities\Entities.csproj" />
     <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="8.0.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="7.1.0" />
+    <PackageReference Include="Ninject" Version="3.3.6" />
+    <PackageReference Include="Ninject.Extensions.Factory" Version="3.3.3" />
   </ItemGroup>
 </Project>

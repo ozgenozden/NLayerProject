@@ -12,6 +12,11 @@
     <None Remove="DataAccess\EntityFramework\" />
     <None Remove="Utilities\" />
     <None Remove="Utilities\Results\" />
+    <None Remove="Utilities\Security\" />
+    <None Remove="Utilities\Security\JWT\" />
+    <None Remove="Utilities\Security\Encryption\" />
+    <None Remove="Utilities\Security\Hashing\" />
+    <None Remove="Entities\Concrete\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataAccess\" />
@@ -19,6 +24,11 @@
     <Folder Include="DataAccess\EntityFramework\" />
     <Folder Include="Utilities\" />
     <Folder Include="Utilities\Results\" />
+    <Folder Include="Utilities\Security\" />
+    <Folder Include="Utilities\Security\JWT\" />
+    <Folder Include="Utilities\Security\Encryption\" />
+    <Folder Include="Utilities\Security\Hashing\" />
+    <Folder Include="Entities\Concrete\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />

@@ -10,7 +10,8 @@ namespace DataAccess.Concrete.EntityFramework
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
 
-            optionsBuilder.UseSqlServer(@"Data Source = localhost; Initial Catalog = Northwind; User Id=SA; Password=reallyStrongPwd123; TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer(@"Data Source = localhost; Initial Catalog = Northwind; User Id=SA;
+Password=reallyStrongPwd123; TrustServerCertificate=True");
 
         }
         public DbSet<Product> Products { get; set; }
