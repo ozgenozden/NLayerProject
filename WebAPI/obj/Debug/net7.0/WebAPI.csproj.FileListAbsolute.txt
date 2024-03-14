@@ -85,3 +85,8 @@
 /Users/ozgen/Projects/NLayerProject/WebAPI/bin/Debug/net7.0/Ninject.dll
 /Users/ozgen/Projects/NLayerProject/WebAPI/bin/Debug/net7.0/Ninject.Extensions.Factory.dll
 /Users/ozgen/Projects/NLayerProject/WebAPI/bin/Debug/net7.0/FluentValidation.dll
+/Users/ozgen/Projects/NLayerProject/WebAPI/bin/Debug/net7.0/Microsoft.Extensions.Configuration.dll
+/Users/ozgen/Projects/NLayerProject/WebAPI/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/ozgen/Projects/NLayerProject/WebAPI/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Binder.dll
+/Users/ozgen/Projects/NLayerProject/WebAPI/bin/Debug/net7.0/Microsoft.Extensions.Primitives.dll
+/Users/ozgen/Projects/NLayerProject/WebAPI/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll

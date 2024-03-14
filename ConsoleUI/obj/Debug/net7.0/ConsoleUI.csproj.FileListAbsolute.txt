@@ -79,3 +79,11 @@
 /Users/ozgen/Projects/NLayerProject/ConsoleUI/bin/Debug/net7.0/FluentValidation.dll
 /Users/ozgen/Projects/NLayerProject/ConsoleUI/bin/Debug/net7.0/Ninject.dll
 /Users/ozgen/Projects/NLayerProject/ConsoleUI/bin/Debug/net7.0/Ninject.Extensions.Factory.dll
+/Users/ozgen/Projects/NLayerProject/ConsoleUI/bin/Debug/net7.0/Microsoft.AspNetCore.Http.Abstractions.dll
+/Users/ozgen/Projects/NLayerProject/ConsoleUI/bin/Debug/net7.0/Microsoft.AspNetCore.Http.Features.dll
+/Users/ozgen/Projects/NLayerProject/ConsoleUI/bin/Debug/net7.0/Microsoft.Extensions.Configuration.dll
+/Users/ozgen/Projects/NLayerProject/ConsoleUI/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Binder.dll
+/Users/ozgen/Projects/NLayerProject/ConsoleUI/bin/Debug/net7.0/Microsoft.AspNetCore.Http.dll
+/Users/ozgen/Projects/NLayerProject/ConsoleUI/bin/Debug/net7.0/Microsoft.AspNetCore.WebUtilities.dll
+/Users/ozgen/Projects/NLayerProject/ConsoleUI/bin/Debug/net7.0/Microsoft.Extensions.ObjectPool.dll
+/Users/ozgen/Projects/NLayerProject/ConsoleUI/bin/Debug/net7.0/Microsoft.Net.Http.Headers.dll

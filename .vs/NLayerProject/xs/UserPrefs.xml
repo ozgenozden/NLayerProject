@@ -1,11 +1,8 @@
 ﻿<Properties StartupConfiguration="{33EB1FEB-2A57-447E-8202-A32ED54716ED}|https">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebAPI/Program.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebAPI/Controllers/ProductController.cs">
     <Files>
       <File FileName="ConsoleUI/Program.cs" />
       <File FileName="Entities/Concrete/Product.cs" />
@@ -33,7 +30,6 @@
       <File FileName="Core/DataAccess/IEntityRepository.cs" />
       <File FileName="Core/Utilities/Results/SuccessResult.cs" />
       <File FileName="Core/Utilities/Results/ErrorResult.cs" />
-      <File FileName="Business/Constants/Messages.cs" />
       <File FileName="Core/Utilities/Results/IDataResult.cs" />
       <File FileName="Core/Utilities/Results/DataResult.cs" />
       <File FileName="Core/Utilities/Results/SuccessDataResult.cs" />
@@ -42,7 +38,7 @@
       <File FileName="Business/Business.csproj" />
       <File FileName="Core/Entities/Concrete/User.cs" />
       <File FileName="WebAPI/appsettings.json" />
-      <File FileName="WebAPI/Program.cs" Line="23" Column="1" />
+      <File FileName="WebAPI/Program.cs" Line="79" Column="1" />
       <File FileName="../../Downloads/KampFinalProject-master/WebAPI/Program.cs" />
       <File FileName="../../Downloads/KampFinalProject-master/WebAPI/Startup.cs" />
       <File FileName="../../Downloads/KampFinalProject-master/WebAPI/appsettings.json" />
@@ -60,7 +56,7 @@
       <File FileName="../../Downloads/KampFinalProject-master/Core/DependencyResolvers/CoreModule.cs" />
       <File FileName="../../Downloads/KampFinalProject-master/Core/Utilities/IoC/ICoreModule.cs" />
       <File FileName="../../Downloads/KampFinalProject-master/Core/Utilities/Interceptors/MethodInterception.cs" />
-      <File FileName="WebAPI/Controllers/ProductController.cs" />
+      <File FileName="WebAPI/Controllers/ProductController.cs" Line="52" Column="8" />
       <File FileName="../../Downloads/KampFinalProject-master/Business/DependencyResolvers/Autofac/AutofacBusinessModule.cs" />
       <File FileName="Business/DependecyResolves/AutofacBusinessModule.cs" />
       <File FileName="../../Downloads/KampFinalProject-master/Core/DataAccess/IEntityRepository.cs" />
@@ -68,21 +64,65 @@
       <File FileName="../../Downloads/KampFinalProject-master/Business/Concrete/ProductManager.cs" />
       <File FileName="../../Downloads/KampFinalProject-master/Business/Abstract/IProductService.cs" />
       <File FileName="Business/DependecyResolves/NinjectBusinessModule.cs" />
+      <File FileName="Business/CCS/ILogger.cs" />
+      <File FileName="Business/CCS/FileLogger.cs" />
+      <File FileName="Business/CCS/DatabaseLogger.cs" />
+      <File FileName="Business/ValidationRules/FluentValidation/ProductValidator.cs" />
+      <File FileName="Core/CrossCuttingConcern/Validation/ValidationTool.cs" />
+      <File FileName="../../Downloads/KampFinalProject-master/Core/Utilities/Interceptors/AspectInterceptorSelector.cs" />
+      <File FileName="Core/Utilities/Interceptors/MethodInterceptionBaseAttribute.cs" />
+      <File FileName="Core/Utilities/Interceptors/AspectInterceptorSelector.cs" />
+      <File FileName="Core/Utilities/Interceptors/MethodInterception.cs" />
+      <File FileName="Core/Aspect/Autofac/Validation/ValidationAspect.cs" />
+      <File FileName="../../Downloads/KampFinalProject-master/Core/Utilities/Business/BusinessRules.cs" />
+      <File FileName="Core/Utilities/Business/BusinessRules.cs" />
+      <File FileName="Core/Utilities/Security/Hashing/HashingHelper.cs" />
+      <File FileName="Core/Utilities/Security/Encryption/SecurityKeyHelper.cs" />
+      <File FileName="Core/Utilities/Security/Encryption/SigningCredentialsHelper.cs" />
+      <File FileName="Core/Utilities/Security/JWT/AccessToken.cs" />
+      <File FileName="Core/Utilities/Security/JWT/ITokenHelper.cs" />
+      <File FileName="Core/Utilities/Security/JWT/JwtHelper.cs" />
+      <File FileName="Core/Utilities/Security/JWT/TokenOptions.cs" />
+      <File FileName="Core/Extensions/ClaimExtensions.cs" />
+      <File FileName="Core/Extensions/ClaimsPrincipalExtensions.cs" />
+      <File FileName="Business/BusinessAspect/Autofac/SecuredOperation.cs" />
+      <File FileName="Core/Utilities/IoC/ServiceTool.cs" />
+      <File FileName="Business/Constants/Messages.cs" />
+      <File FileName="DataAccess/Abstract/IUserDal.cs" />
+      <File FileName="DataAccess/Concrete/EntityFramework/EfUserDal.cs" />
+      <File FileName="Business/Abstract/IUserService.cs" />
+      <File FileName="Business/Abstract/IAuthService.cs" />
+      <File FileName="WebAPI/Controllers/AuthController.cs" />
+      <File FileName="Business/Concrete/AuthManager.cs" />
+      <File FileName="Core/Extensions/ServiceCollectionExtensions.cs" />
+      <File FileName="Core/CrossCuttingConcern/Caching/ICacheManager.cs" />
+      <File FileName="Core/DependencyResolves/CoreModule.cs" />
+      <File FileName="Core/CrossCuttingConcern/Caching/Microsoft/MemoryCacheManager.cs" />
+      <File FileName="Core/Aspect/Autofac/Caching/EmptyClass.cs" />
+      <File FileName="Core/Aspect/Autofac/Caching/CacheAspect.cs" />
+      <File FileName="WebAPI/Controllers/CategoryController.cs" Line="13" Column="22" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="NLayerProject" expanded="True">
-            <Node name="ConsoleUI" expanded="True" />
-            <Node name="WebAPI" expanded="True">
-              <Node name="Program.cs" selected="True" />
+            <Node name="WebAPI">
+              <Node name="Controllers">
+                <Node name="ProductController.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.WebAPIs PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
 </Properties>

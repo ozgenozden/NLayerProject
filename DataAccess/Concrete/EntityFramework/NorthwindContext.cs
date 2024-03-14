@@ -1,4 +1,5 @@
 ﻿using System;
+using Core.Entities.Concrete;
 using Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -18,6 +19,9 @@ Password=reallyStrongPwd123; TrustServerCertificate=True");
         public DbSet<Category> Categories { get; set; }
         public DbSet<Custumer> Custumers  { get; set; }
         public DbSet<Order> Orders  { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<OperationClaim> OperationClaims  { get; set; }
+        public DbSet<UserOperationClaim> UserOperationClaims { get; set; }
 
     }
 }

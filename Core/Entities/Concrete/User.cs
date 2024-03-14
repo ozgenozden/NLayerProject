@@ -1,10 +1,12 @@
 ﻿using System;
+using Entities.Abstract;
+
 namespace Core.Entities.Concrete;
 
-public class User
+public class User:IEntity
 {
     public int Id { get; set; }
-    public string FirtName { get; set; }
+    public string FirstName { get; set; }
     public string LastName { get; set; }
     public string Email { get; set; }
     public byte[] PasswordSalt { get; set; }
@@ -12,18 +14,5 @@ public class User
     public bool Status { get; set; }
 
 
-}
-public class OperationClaim
-{
-    public int Id { get; set; }
-    public string Name { get; set; }
-
-}
-
-public class UserOperationClaim
-{
-    public int Id { get; set; }
-    public int UserId { get; set; }
-    public int OperationClaimId  { get; set; } 
 }
 

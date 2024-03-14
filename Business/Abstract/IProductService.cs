@@ -12,7 +12,8 @@ public interface IProductService
     IDataResult<List<Product>> GetByUnitPrice(decimal max, decimal min);
     IDataResult<List<ProductDetailDto>> GetProductDetail();
     IDataResult<Product> GetById(int productId);
-    IResult Add(Product product); 
+    IResult Add(Product product);
+    IResult AddTransactionTest(Product product);
 
 }
 

@@ -1,6 +1,8 @@
 ﻿using Business.Abstract;
+using Business.BusinessAspect.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
+using Core.Aspect.Autofac.Caching;
 using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Business;
 //using Business.ValidationRules.FluentValidation;
@@ -13,6 +15,7 @@ using DataAccess.Concrete.EntityFramework;
 using Entities.Concrete;
 using Entities.DTOs;
 using FluentValidation;
+using static Core.Aspect.Autofac.Caching.EmptyClass;
 
 namespace Business.Concrete;
 
@@ -27,8 +30,9 @@ public class ProductManager : IProductService
         _categoryService = categoryService;
     }
 
-
+    [SecuredOperation("product.add,admin")]
     [ValidationAspect(typeof(ProductValidator))]
+    [CacheRemoveAspect("IProductService.Get")]
     public IResult Add(Product product)
     {
    
@@ -52,7 +56,8 @@ public class ProductManager : IProductService
     {
         return new DataResult<List<Product>>(_productDal.GetAll(p=>p.CategoryId==id),true);
     }
-
+ 
+    [CacheAspect]
     public IDataResult<List<Product>> GetAlll()
     {
         //if (DateTime.Now.Hour != 22)
@@ -63,6 +68,7 @@ public class ProductManager : IProductService
             return new DataResult<List<Product>>(_productDal.GetAll(),true,Messages.ProductHasBeenListed);
     }
 
+    [CacheAspect]
     public IDataResult<Product> GetById(int productId)
     {
         return new DataResult<Product>(_productDal.Get(p=>p.ProductId==productId), true);
@@ -115,5 +121,9 @@ public class ProductManager : IProductService
         return new SuccessResult();
     }
 
+    public IResult AddTransactionTest(Product product)
+    {
+        throw new NotImplementedException();
+    }
 }
 

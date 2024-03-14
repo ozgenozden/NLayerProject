@@ -9,6 +9,7 @@ namespace Business.Constants
         public static string ProductHasBeenListed = "Ürünler Listelendi.";
         public static string ProductNameInvalid = "Ürün ismi Geçersiz.";
 
+        public static string? AuthorizationDenied = "Yetkisiz giriş";
     }
 }
 
